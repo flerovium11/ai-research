@@ -1,1 +1,6 @@
 data/*
+venv/*
+models/*
+logs/*
+!models/.gitkeep
+
