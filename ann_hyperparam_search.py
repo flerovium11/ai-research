@@ -119,7 +119,7 @@ class CustomModel(kt.HyperModel):
         return model.fit(
             *args,
             batch_size=hp.Choice("batch_size", [2 ** n for n in range(1, 11)]),
-            verbose=0,
+            verbose=2,
             **kwargs,
         )
 
