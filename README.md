@@ -4,8 +4,7 @@
 
 ## Dataset used
 
-Parisa Karimi Darabi: Traffic Signs Detection Dataset. 2024. https://www.kaggle.com/datasets/
-pkdarabi/cardetection [Download: 04.01.2025]. Licensed with CC BY 4.0.
+Parisa Karimi Darabi: Traffic Signs Detection Dataset. 2024. https://www.kaggle.com/datasets/pkdarabi/cardetection [Download: 04.01.2025]. Licensed with CC BY 4.0.
 
 ## Find my paper (in German) at:
 
