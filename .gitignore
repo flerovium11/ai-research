@@ -3,4 +3,5 @@ venv/*
 models/*
 logs/*
 !models/.gitkeep
+!models/*.keras
 

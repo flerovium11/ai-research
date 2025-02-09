@@ -30,7 +30,8 @@ def kill_process(proc):
 
 def main():
     sp.Popen('pkill -f "/opt/conda/bin/python /home/oinnerednib/ai-research/ann_hyperparam_search.py"', shell=True, executable='/bin/bash')
-
+    print('Started and searching for process...')
+    
     while True:
         proc = find_process()
 

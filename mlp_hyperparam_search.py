@@ -31,8 +31,8 @@ dataset_path = 'data/traffic-signs-detection'
 info_file = os.path.join(dataset_path, 'car/data.yaml')
 categories = yaml.load(open(info_file), Loader=yaml.FullLoader)['names']
 
-img_size = 128
-min_bounding_box_size = 0.2
+img_size = 64
+min_bounding_box_size = 0.3
 only_single_label = True
 forbidden_file_prefixes = ['FisheyeCamera', 'road']
 grayscale = False
@@ -119,7 +119,7 @@ class CustomModel(kt.HyperModel):
         return model.fit(
             *args,
             batch_size=hp.Choice("batch_size", [2 ** n for n in range(1, 11)]),
-            verbose=2,
+            verbose=0,
             **kwargs,
         )
 
