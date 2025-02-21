@@ -1,7 +1,9 @@
 data/*
+!data/.gitkeep
 venv/*
 models/*
 logs/*
+!logs/.gitkeep
 !models/.gitkeep
 !models/*.keras
-
+**/*.ipynb_checkpoints/
