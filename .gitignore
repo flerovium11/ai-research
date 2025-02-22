@@ -7,3 +7,4 @@ logs/*
 !models/.gitkeep
 !models/*.keras
 **/*.ipynb_checkpoints/
+images/frames/*
