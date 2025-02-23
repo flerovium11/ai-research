@@ -3,8 +3,7 @@
 > For my final paper "Using Artificial Intelligence for Computer Vision in Autonomous Vehicles" 2025
 
 ## Dataset used
-
-Parisa Karimi Darabi: Traffic Signs Detection Dataset. 2024. https://www.kaggle.com/datasets/pkdarabi/cardetection [Download: 04.01.2025]. Licensed with CC BY 4.0.
+J. Stallkamp, M. Schlipsing, J. Salmen, C. Igel, Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition, Neural Networks, Available online 20 February 2012, ISSN 0893-6080, 10.1016/j.neunet.2012.02.016. (http://www.sciencedirect.com/science/article/pii/S0893608012000457) Keywords: Traffic sign recognition; Machine learning; Convolutional neural networks; Benchmarking
 
 ## Pretrained Models
 
