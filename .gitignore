@@ -1,10 +1,11 @@
-data/*
+data
 !data/.gitkeep
-venv/*
-models/*
-logs/*
+venv
+models
+logs
 !logs/.gitkeep
 !models/.gitkeep
 !models/*.keras
 **/*.ipynb_checkpoints/
-images/frames/*
+media/frames
+runs
