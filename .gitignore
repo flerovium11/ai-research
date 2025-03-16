@@ -5,7 +5,7 @@ models
 logs
 !logs/.gitkeep
 !models/.gitkeep
-!models/*.keras
+!models/*.pt
 **/*.ipynb_checkpoints/
 media/frames
 runs
