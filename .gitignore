@@ -1,11 +1,7 @@
 data
-!data/.gitkeep
 venv
 models
 logs
-!logs/.gitkeep
-!models/.gitkeep
-!models/*.pt
 **/*.ipynb_checkpoints/
 media/frames
 runs

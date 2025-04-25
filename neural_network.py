@@ -180,8 +180,6 @@ class Layer:
     def update_weights(self, learning_rate: float, inputs: np.array) -> None:
         gradient = np.outer(self.node_deltas, np.append(inputs, 1))
         numerical_gradient = self.numerical_gradient(inputs, gradient, 1e-5)
-        print('gradient', gradient)
-        print('numerical_gradient', numerical_gradient)
 
         if self.gradient_clipping:
             gradient = np.clip(
